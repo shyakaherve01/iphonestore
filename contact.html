@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Contact Section -->
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p><a href="mailto:support@buyyouriphone.com">shyakaherve9@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p><a href="tel:+0786361717">+250 (786361717)</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Address</h3>
+                <p>KIGALI CITY KG500</p>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="contact-form">
+            <h2>Get In Touch</h2>
+            <form action="web.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BuyYouriPhone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
